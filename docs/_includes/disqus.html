@@ -1,0 +1,21 @@
+{% if page.comments %}
+
+<!-- https://css-tricks.com/lazy-loading-disqus-comments/ -->
+<div class="disqus"></div>
+
+<script src="/js/disqusloader.js"></script>
+<script>
+    disqusLoader( '.disqus',
+    {
+        scriptUrl: 'https://zofware.disqus.com/embed.js',
+        disqusConfig: function()
+        {
+            this.page.identifier = '{{ page.id }}';
+            this.page.url        = '{{ site.url }}{{ page.url }}';
+            this.page.title      = '{{ page.title }}';
+        }
+    });
+</script>
+
+{% endif %}
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
