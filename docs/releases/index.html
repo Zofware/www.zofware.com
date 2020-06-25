@@ -9,7 +9,7 @@ featured_image: /images/social.jpg
 
     <div class="wrap">
 
-        <h1>Release History <a href="{{site.url}}/feed/releases.xml"><i class="fas fa-rss"></i></a></h1>
+        <h1>Release History <a href="{{ '/feed/releases.xml' | relative_url }}"><i class="fas fa-rss"></i></a></h1>
 
         {% for post in site.releases reversed %}
 

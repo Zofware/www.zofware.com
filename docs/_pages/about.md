@@ -14,6 +14,6 @@ hidetitle: true
 {: style="text-align: center;"}
 
 <div align="center">
-<a href='https://www.simplesportscaster.com'><img src="{{site.url}}/images/ssc-768.png" align="center"/></a>
+<a href='https://www.simplesportscaster.com'><img src="{{ '/images/ssc-768.png' | relative_url }}" align="center"/></a>
 </div>
 
