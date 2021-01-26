@@ -6,11 +6,14 @@ featured_image: /images/social.jpg
 permalink: /
 hidetitle: true
 ---
+{: style="text-align: center;"}
+For information on how Zofware can support your software development project, send us an [email](mailto:info@zofware.com)!
+
 [<i class="fas fa-envelope"/> info@zofware.com](mailto:info@zofware.com)  
 [<i class="fab fa-twitter"/> @zofware](https://twitter.com/zofware)  
 {: style="text-align: center;"}
 
-**Maker of**
+**Zofware &#8212; Maker of**
 {: style="text-align: center;"}
 
 <div align="center">
